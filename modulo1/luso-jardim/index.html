@@ -1,50 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Luso garden</title>
+
+    <!--ICONES DO MENU-->
+    <link rel="stylesheet" href="assets/style.css" />
+
+    <!--LINK CSS-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--FONTS-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <!--HEADER-->
     <header id="header">
-      <a href="">Luso <span>Garden Center</span> </a>
-      <!--MENU-->
-      <ul>
-        <li>
-          <a class="title">Home</a>
-        </li>
-        <li>
-          <a class="title">Sobre</a>
-        </li>
-        <li>
-          <a class="title">Loja</a>
-        </li>
-        <li>
-          <a class="title">Serviços</a>
-        </li>
-        <li>
-          <a class="title">Projetos</a>
-        </li>
-        <li>
-          <a class="title">Contato</a>
-        </li>
-      </ul>
+      <nav class="container">
+        <a class="logo" href="#"><span>Luso</span> Garden Center </a>
+        <!--MENU-->
+        <div class="menu">
+          <ul class="grid">
+            <li>
+              <a href="#" class="title">Home</a>
+            </li>
+            <li>
+              <a href="#" class="title">Sobre</a>
+            </li>
+            <li>
+              <a href="#" class="title">Loja</a>
+            </li>
+            <li>
+              <a href="#" class="title">Serviços</a>
+            </li>
+            <li>
+              <a href="#" class="title">Projetos</a>
+            </li>
+            <li>
+              <a href="#" class="title">Contato</a>
+            </li>
+          </ul>
+        </div>
+        <!--MENU ABRE E FECHA-->
+        <div class="toggle icon-menu1"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
     </header>
 
     <main>
       <!--HOME-->
       <section class="section" id="home">
         <div class="container grid">
-          <img
-            src="https://images.unsplash.com/photo-1601654253194-260e0b6984f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=799&q=80"
-            alt="varanda decorada com plantas"
-          />
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1601654253194-260e0b6984f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=799&q=80"
+              alt="varanda decorada com plantas"
+            />
+          </div>
 
           <div class="text">
-            <h2 class="title">SEJA EBM VINDO À LUSO GARDEN CENTER</h2>
-            <h1 class="title">...E havia um horto naquele lugar...</h1>
+            <h2 class="title">
+              SEJA BEM VINDO À <span>LUSO</span> GARDEN CENTER
+            </h2>
+
             <p>
               O melhor atendimento, solução e qualidade para que seu jardim seja
               um ambiente de requinte e tranquilidade!
@@ -56,9 +81,38 @@
       <div class="divider-1"></div>
 
       <!--ABOUT-->
-      <section class="section" id="about"></section>
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1623358519330-00f61d89396b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+              alt="jardim com uma escada ao fundo"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre nós</h2>
+            <p>
+              Somos uma empresa focada na prestação de serviços voltados para o
+              bem estar do ser humano e da natureza, pois entendemos que quando
+              existe a correlação de boas práticas com o lugar que ocupamos no
+              universo temos nossa energia transformada pelo ambiente que
+              habitamos!
+            </p>
+            <br />
+            <p>
+              Pensando dessa forma a <strong>Sana Gaya Ibitipoca</strong> atua
+              tanto na elaboração e desenvolvimento de projetos de consultoria
+              ambental quanto na prestação de serviços como hospedagem e
+              terapias.Pensando sempre no seu bem estar, não esquecendo que uma
+              pessoa saudável energeticamente contribui para tornar o planeta
+              saudável.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer></footer>
+    <script src="main.js"></script>
   </body>
 </html>
