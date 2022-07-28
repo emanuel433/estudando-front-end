@@ -217,3 +217,84 @@ nav.show div.icon-close {
   top: 1.5rem;
 }
 
+/*HOME*/
+
+#home {
+  overflow: hidden;
+}
+
+#home .container {
+  margin: 0;
+
+}
+
+#home .image {
+  position: relative;
+}
+
+#home .image img {
+  position: relative;
+  left: 2.93rem;
+  border-radius: 0.25rem;
+}
+
+#home .text {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
+}
+
+#home .text h2 {
+  margin-bottom: 1rem;
+}
+
+#home .text p {
+  margin-bottom: 2rem;
+}
+
+/* ABOUT */
+
+#about {
+  background: #a8e4d9;
+}
+
+#about .image {
+  position: relative;
+}
+
+#about .image img {
+  border-radius: 0.25rem;
+  width: 40%;
+}
+
+#about .text {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+/*SERVICES*/
+ .cards.grid {
+  gap: 1.5rem;
+ }
+
+ .card {
+  padding: 3.625rem 2rem;
+  box-shadow: 0px 0px 12px rgba(0, 0 0.08);
+  border-bottom: 0.25rem solid brown;
+  border-radius: 0.25rem 0.25rem 0 0;
+  text-align: center;
+
+  display: block;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+ }
+ 
+ .img-d {
+  width: 10%;
+ }
+ 
+
+ .card .title {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+ }
